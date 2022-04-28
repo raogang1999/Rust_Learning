@@ -1,0 +1,2 @@
+[workspace]
+members =["mio_learning", "pnet_learning","dns_learning","use_grpc","email_learning","ftp_learning","network_raw","test_project"]

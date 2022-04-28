@@ -1,0 +1,17 @@
+[package]
+name = "use_grpc"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+protobuf = "2.10.3"
+grpc = "0.8.3"
+grpc-protobuf = "0.8.3"
+futures = "0.3.20"
+tls-api = "0.7.0"
+
+[build-dependencies]
+protoc-rust-grpc = { version = "0.8.3" }
